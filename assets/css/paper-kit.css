@@ -6815,7 +6815,6 @@ License - nucleoapp.com/license/
   background: -ms-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
   background: linear-gradient(to bottom, #FFFFFF 35%, #4e6773 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .presentation-subtitle {
@@ -6933,7 +6932,7 @@ License - nucleoapp.com/license/
 }
 
 .section-dark-blue {
-  background-color: #506367;
+  background-color: #1279E6;
   color: #FFFFFF;
 }
 
@@ -7070,6 +7069,9 @@ License - nucleoapp.com/license/
 /*          Changes for small display      */
 
 @media (max-width: 767px) {
+  .page-header{
+    background-position: 1550px center;
+  }
   #cd-vertical-nav {
     display: none !important;
   }
