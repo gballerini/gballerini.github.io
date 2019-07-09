@@ -4475,7 +4475,7 @@ License - nucleoapp.com/license/
   font-weight: 600;
   margin: 5px 0px;
   padding: 20px 15px;
-  font-size: 14px;
+  font-size: 21px;
   color: #66615B;
   text-transform: uppercase;
 }
@@ -4518,7 +4518,7 @@ License - nucleoapp.com/license/
 }
 
 .navbar .navbar-nav .nav-item .nav-link [class^="fa"] {
-  font-size: 17px;
+  font-size: 23px;
   position: relative;
   right: 5px;
 }
@@ -6805,7 +6805,7 @@ License - nucleoapp.com/license/
 }
 
 .presentation-title {
-  font-size: 6em;
+  font-size: 4em;
   font-weight: 700;
   margin: 0;
   color: #FFFFFF;
@@ -6932,7 +6932,11 @@ License - nucleoapp.com/license/
 }
 
 .section-dark-blue {
-  background-color: #1279E6;
+  background: #1279E6;
+  background: -moz-linear-gradient(top, #1279E6 35%, #000 100%);
+  background: -webkit-linear-gradient(top, #1279E6 35%, #000 100%);
+  background: -ms-linear-gradient(top, #1279E6 35%, #000 100%);
+  background: linear-gradient(to bottom, #1279E6 35%, #000 100%);
   color: #FFFFFF;
 }
 
@@ -7069,6 +7073,9 @@ License - nucleoapp.com/license/
 /*          Changes for small display      */
 
 @media (max-width: 767px) {
+  #twitter-widget-0{
+    width: 340px !important;
+  }
   .page-header{
     background-position: 1550px center;
   }
@@ -7613,7 +7620,7 @@ License - nucleoapp.com/license/
     margin-bottom: -35px;
   }
   .presentation-page .presentation-title {
-    font-size: 5em;
+    font-size: 3em;
   }
   .presentation-page .presentation-subtitle {
     margin-top: 40px;
@@ -7658,7 +7665,7 @@ License - nucleoapp.com/license/
   }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
   .navbar-collapse {
     position: fixed;
     display: block !important;
@@ -7872,7 +7879,7 @@ License - nucleoapp.com/license/
   }
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 767px) {
   .burger-menu .navbar-collapse {
     position: fixed;
     display: block;
@@ -8154,7 +8161,7 @@ License - nucleoapp.com/license/
 
 @media (max-width: 1200px) {
   .presentation-page .presentation-title {
-    font-size: 7em;
+    font-size: 4em;
   }
   .presentation-page .title-brand {
     max-width: 650px;
