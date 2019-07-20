@@ -24,6 +24,8 @@
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
+
+
 #lista5 {
   position: absolute;
   right: 20%;
@@ -32,8 +34,8 @@
 }
 
 .text-img {
-  width: 35%;
-  margin-left: 10px;
+  width: 40%;
+  margin-left: 1.5em;
   margin-bottom: 10px;
   float: right;
 }
@@ -606,6 +608,13 @@
 @media (min-width: 768px) {
   .bootstrap-datetimepicker-widget.dropdown-menu.timepicker-sbs {
     width: 38em;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-8 {
+    flex: 0 0 95% !important;
+    max-width: 95% !important;
   }
 }
 
@@ -3640,7 +3649,7 @@ License - nucleoapp.com/license/
 }
 
 /*------------------------
-	base class definition
+  base class definition
 -------------------------*/
 
 .nc-icon {
@@ -3813,7 +3822,7 @@ License - nucleoapp.com/license/
 }
 
 /*------------------------
-	font icons
+  font icons
 -------------------------*/
 
 .nc-air-baloon::before {
@@ -8117,6 +8126,7 @@ License - nucleoapp.com/license/
   }
 }
 
+
 @media screen and (min-width: 767px) {
   .section-sections .section-cols {
     position: relative;
@@ -8265,4 +8275,29 @@ License - nucleoapp.com/license/
   }
 }
 
-/*# sourceMappingURL=kit-free.css.map */
+@media (max-width: 768px) {
+  .page-header {
+      background-position: 1500px center;
+  }
+    .prensa-banner {
+      background-position: 1200px 830px;
+  }
+}
+
+@media (max-width: 414px) {
+  .page-header {
+      background-position: 1060px center;
+  }
+    .prensa-banner {
+      background-position: 900px 830px;
+  }
+}
+
+@media (max-width: 375px) {
+  .page-header {
+      background-position: 970px center;
+  }
+  .prensa-banner {
+      background-position: 900px 830px;
+  }
+}
