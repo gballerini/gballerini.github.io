@@ -611,7 +611,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 400px & max-width: 768px) {
   .col-md-8 {
     flex: 0 0 95% !important;
     max-width: 95% !important;
