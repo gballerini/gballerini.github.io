@@ -32,8 +32,8 @@
 }
 
 .text-img {
-  width: 35%;
-  margin-left: 10px;
+  width: 40%;
+  margin-left: 1.5em;
   margin-bottom: 10px;
   float: right;
 }
@@ -8120,6 +8120,18 @@ License - nucleoapp.com/license/
   }
   .lightbox .modal-dialog {
     width: 960px;
+  }
+}
+
+@media (max-width: 414px) {
+  .page-header {
+      background-position: 1060px center;
+  }
+}
+
+@media (max-width: 375px) {
+  .page-header {
+      background-position: 1110px center;
   }
 }
 
