@@ -8123,11 +8123,17 @@ License - nucleoapp.com/license/
   .page-header {
       background-position: 1060px center;
   }
+    .prensa-banner {
+      background-position: 900px 830px;
+  }
 }
 
 @media (max-width: 375px) {
   .page-header {
-      background-position: 1110px center;
+      background-position: 970px center;
+  }
+  .prensa-banner {
+      background-position: 900px 830px;
   }
 }
 
