@@ -626,7 +626,7 @@
 
 @media (max-width: 768px) {
     #top1 {
-    background-image: url('../img/banner-mob.jpg') !important;
+    background-image: url('../img/banner-mob.jpg');
   }
 }
 
