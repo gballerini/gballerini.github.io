@@ -8304,9 +8304,19 @@ License - nucleoapp.com/license/
 
 @media (max-width: 375px) {
   .page-header {
-      background-position: 970px center;
+      background-position: 1050px center;
   }
   .prensa-banner {
       background-position: 900px 830px;
   }
 }
+
+@media (max-width: 320px) {
+  .page-header {
+      background-position: 800px center;
+  }
+    .prensa-banner {
+      background-position: 830px 830px;
+  }
+}
+
