@@ -25,10 +25,6 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-.bannerMob {
-  display: none;
-}
-
 #lista5 {
   position: absolute;
   right: 5%;
@@ -622,11 +618,8 @@
   .offset-md-2 {
     margin-left: 10%;
   }
-  .bannerMob {
-  display: block;
-  }
-  .bannerDesk {
-    display:none;
+  #top1 {
+    background-image: url('./assets/img/banner-mob.jpg');
   }
 }
 
