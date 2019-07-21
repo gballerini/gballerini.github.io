@@ -30,10 +30,7 @@
   }
 
 #lista5 {
-  position: absolute;
-  right: 5%;
-  bottom: 3em;
-  height: 120px;
+  display: none;
 }
 
 .text-img {
@@ -7145,13 +7142,17 @@ License - nucleoapp.com/license/
 ===================================================================
 ===================================================================*/
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .text-img {
     display: none;
   }
   #lista5 {
     width: 90%;
     height: auto;
+    position: absolute;
+    display: block;
+    right: 5%;
+    bottom: 50px;
   }
   .main {
     margin: 0 15px;
