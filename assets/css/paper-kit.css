@@ -7157,7 +7157,7 @@ License - nucleoapp.com/license/
     width: 340px !important;
   }
   .page-header{
-    background-position: 1060px center;
+    background-position: center center;
   }
   #cd-vertical-nav {
     display: none !important;
@@ -8276,7 +8276,7 @@ License - nucleoapp.com/license/
 
 @media (max-width: 768px) {
   .page-header {
-      background-position: 1500px center;
+      background-position: center center;
   }
     .prensa-banner {
       background-position: 1200px 830px;
@@ -8285,7 +8285,7 @@ License - nucleoapp.com/license/
 
 @media (max-width: 414px) {
   .page-header {
-      background-position: 1060px center;
+      background-position: center center;
   }
     .prensa-banner {
       background-position: 900px 830px;
@@ -8294,7 +8294,7 @@ License - nucleoapp.com/license/
 
 @media (max-width: 375px) {
   .page-header {
-      background-position: 1050px center;
+      background-position: center center;
   }
   .prensa-banner {
       background-position: 900px 830px;
@@ -8303,7 +8303,7 @@ License - nucleoapp.com/license/
 
 @media (max-width: 320px) {
   .page-header {
-      background-position: 800px center;
+      background-position: center center;
   }
     .prensa-banner {
       background-position: 830px 830px;
