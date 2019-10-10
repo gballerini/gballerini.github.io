@@ -25,12 +25,21 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
-  #top1 {
-    background-image: url('../img/banner.jpg');
-  }
+#top1 {
+   background-image: url('../img/banner.jpg');
+}
+
 
 #lista5 {
   display: none;
+}
+
+span.tdtitle {
+  font-weight: bold !important;
+}
+
+.a-date {
+  width: 21%;
 }
 
 .text-img {
@@ -612,7 +621,7 @@
 }
 
 @media (max-width: 768px) {
-    #top1 {
+   #top1 {
     background-image: url('../img/banner-mob.jpg');
   }
 }
@@ -8278,8 +8287,11 @@ License - nucleoapp.com/license/
   .page-header {
       background-position: center center;
   }
-    .prensa-banner {
+  .prensa-banner {
       background-position: 1200px 830px;
+  }
+  .agenda-banner {
+      background-position: 500px 5px;
   }
 }
 
