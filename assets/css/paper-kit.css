@@ -29,6 +29,16 @@
    background-image: url('../img/banner.jpg');
 }
 
+#top2 {
+   background-image: url('../img/agenda.jpg');
+}
+
+.agenda-banner {
+  background-repeat: no-repeat; 
+  background-size: cover;
+  min-height: 50vh;
+}
+
 
 #lista5 {
   display: none;
@@ -628,6 +638,9 @@ span.tdtitle {
 @media (max-width: 768px) {
    #top1 {
     background-image: url('../img/banner-mob.jpg');
+  }
+  #top2 {
+    background-image: url('../img/agenda-mob.jpg');
   }
 }
 
@@ -8294,9 +8307,6 @@ License - nucleoapp.com/license/
   }
   .prensa-banner {
       background-position: 1200px 830px;
-  }
-  .agenda-banner {
-      background-position: 0 85px;
   }
 }
 
