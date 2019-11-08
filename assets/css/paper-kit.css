@@ -17,6 +17,23 @@
   display: none;
 }
 
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
 .nav {
     padding-left: 0;
     margin-bottom: 0;
@@ -28,20 +45,20 @@
     font-weight: 600;
 }
 
-.nav>li>a {
+.nav>li>button {
   position: relative;
   display: block;
   padding: 10px 15px;
 }
 
-.nav-tabs>li>a {
+.nav-tabs>li>button {
     margin-right: 2px;
     line-height: 1.42857143;
     border: 1px solid transparent;
     border-radius: 4px 4px 0 0;
 }
 
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+.nav-tabs>li.active>button, .nav-tabs>li.active>button:focus, .nav-tabs>li.active>button:hover {
   color: #555;
   cursor: default;
   background-color: #fff;
@@ -49,7 +66,7 @@
   border-bottom-color: transparent;
 }
 
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+.nav-tabs>li.active>button, .nav-tabs>li.active>button:focus, .nav-tabs>li.active>button:hover {
     color: #555;
     cursor: default;
     background-color: #fff;
@@ -8338,7 +8355,7 @@ License - nucleoapp.com/license/
       background-position: center center;
   }
   .prensa-banner {
-      background-position: 1200px 830px;
+      background-position: 0px 80px;
   }
 }
 
@@ -8346,17 +8363,11 @@ License - nucleoapp.com/license/
   .page-header {
       background-position: center center;
   }
-    .prensa-banner {
-      background-position: 900px 830px;
-  }
 }
 
 @media (max-width: 375px) {
   .page-header {
       background-position: center center;
-  }
-  .prensa-banner {
-      background-position: 900px 830px;
   }
 }
 
