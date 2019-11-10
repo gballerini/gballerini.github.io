@@ -246,6 +246,9 @@ img.zoom {
 }
 
 /* END GALLERY STYLE*/
+.mob {
+    display: none;
+}
 
 
 @media (max-width: 768px) {
@@ -286,6 +289,17 @@ img.zoom {
         clear: both;
         width: 100%;
     }
+    .mob {
+        display: block;
+    }
+
+    .mob img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .noMob {
+        display: none;
+    } 
 }
 
 @media (max-width: 375px) {
