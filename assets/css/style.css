@@ -282,6 +282,10 @@ img.zoom {
     .page-header {
         background-position: center center;
     }
+    .pbox1, .pbox2 {
+        clear: both;
+        width: 100%;
+    }
 }
 
 @media (max-width: 375px) {
