@@ -250,7 +250,6 @@ img.zoom {
     display: none;
 }
 
-
 @media (max-width: 768px) {
     #top1 {
         background-image: url('../img/banner-mob.jpg');
@@ -265,7 +264,7 @@ img.zoom {
     }
 
     .prensa-banner {
-        background-position: -600px 80px;
+        background-position: -885px 80px;
     }
 }
 
